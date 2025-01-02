@@ -82,6 +82,12 @@ The script uses **Picamera2** to capture video. You can adjust the camera config
 ```python
 config = picam2.create_preview_configuration(main={"size": (512, 384), "format": "RGB888"})  # Adjust resolution
 ```
+## Performance Metrics
+YOLOv5 Nano 
+![nano](https://github.com/rishitdass/ecorover/raw/main/images/results-nano.PNG)  
+YOLOv5 Small 
+![small](https://github.com/rishitdass/ecorover/raw/main/images/results-small.PNG)  
+
 
 ## Key Features
 
